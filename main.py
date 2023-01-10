@@ -5,8 +5,8 @@ from langdetect import detect, detect_langs
 import pandas as pd
 from selenium import webdriver
 
-sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id="3f7964aa78e54c1b88dab7cfe8510eb7",
-                                                           client_secret="e5daeab79308427f83bbd18e8c35a157"))
+sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id="CLIENT_ID",
+                                                           client_secret="CLIENT_SECRET"))
 
 
 
